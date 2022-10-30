@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.App {
+    .footer {
+        padding-left: 17px;
+        padding-bottom: 32px;
+
+        @media screen and(min-width : 770px) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 32px;
+            padding-bottom: 48px;
+            padding-left: 112px;
+            padding-right: 112px;
+        }
+
+        img {
+            padding-bottom: 10px;
+            height: 18.5px;
+            @media screen and(min-width:770px) {
+                height: 25px;
+            }
+        }
+
+        .HNG {
+            padding-bottom: 16px;
+            color: rgba(102, 112, 133, 1);
+            font-weight: 400;
+            font-size: 14px;
+
+            @media screen and(min-width:770px) {
+                width: 832px;
+                text-align: center;
+            }
+        }
+
+        .ingressive {
+            height: 24px;
+            width: 99px;
+            @media screen and (min-width) {
+                height: 32px;
+            }
+        }
+    }
+}
