@@ -31,9 +31,9 @@
                 #share {
                     position: relative;
                     bottom: 10px;
-                    left: 10%;
-                    height: 40px;
-                    width: 40px;
+                    left: 3%;
+                    height: 30px;
+                    width: 30px;
                     border-radius: 50%;
                     border: 1.5px solid;
                     border-style: dashed;
@@ -41,11 +41,14 @@
                     align-items: center;
                     justify-content: center;
                     border-color:#D0D5DD;
+                    @media screen and (min-width:768px) {
+                        left: 10%;
+                    }
                     .share-icon {
                         width: 15px;
                         height: 15px;
                         display: none;
-                        @media screen and(min-width:770px) {
+                        @media screen and(min-width:768px) {
                             display: block;
                         }
                     }
@@ -53,7 +56,7 @@
                         width: 30px;
                         height: 30px;
                         display: block;
-                        @media screen and(min-width:770px) {
+                        @media screen and(min-width:768px) {
                             display: none;
                         }
                     }
@@ -75,7 +78,7 @@
                 padding-top: 24px;
                 padding-bottom: 56px;
 
-                @media screen and (min-width: 770px) {
+                @media screen and (min-width: 768px) {
                     font-size: 20px;
 
                 }
@@ -90,7 +93,7 @@
                 margin-left: 14px;
                 margin-right: 14px;
 
-                @media screen and(min-width : 770px) {
+                @media screen and(min-width : 768px) {
                     margin-left: 144px;
                     margin-right: 144px;
                 }
@@ -119,7 +122,7 @@
                             font-weight: 500;
                             font-size: 14px;
 
-                            @media screen and (min-width: 770px) {
+                            @media screen and (min-width: 768px) {
                                 font-size: 18px;
                             }
                         }
